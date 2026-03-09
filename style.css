@@ -8,3 +8,78 @@
   font-size: 125%;
   margin: 40px 20px 40px 20px; 
 }
+
+.container{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.header{
+  flex: 15%;
+  background-color: gray;
+  background: url("CCDA0596-6F56-424C-9AB3-FF4FC8F3BC98.jpeg") center / 100%;
+  aspect-ratio: 6 / 1;
+}
+
+.menu{
+  flex: 5%;
+  background-color: darkblue;
+  display: flex;
+  align-items: center;
+}
+
+.menu a{
+  color: white;
+  padding: 15px 20px;
+  text-decoration: none;
+}
+
+.menu a:hover{
+  background-color: lightgray;
+}
+
+.content{
+  flex: 90%;
+  background-color: white;
+}
+
+.content iframe{
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+.footer {
+  flex: 10%;
+  background-color: darkblue;
+}
+.top-link{
+  margin: 15px;
+}
+
+.top-link a{
+  text-decoration: none;
+  color: blue;
+  margin-right: 12px;
+  font-weight: bold;
+}
+.top-link a:hover{
+  color: red;
+  text-decoration: underline;
+}
+.f1 {
+  color: red;
+  margin-top: 18pt;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Times New Roman";
+}
+
+.f2 {
+  color: black;
+  margin-top: 6pt;
+  margin-bottom: 6pt;
+  font-size: 15px;
+  font-family: "Times New Roman";
+}
+
