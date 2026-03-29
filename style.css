@@ -1,54 +1,60 @@
-.kmno4 { color: orangered; 
-        text-align: center;
-        font-weight: bold;
-       font-size: 300% ; 
-        text-transform: uppercase;}
-.h2so4 {
-        color: #b55de8 ; 
-  font-size: 125%;
-  margin: 40px 20px 40px 20px; 
+*{
+  font-family: Arial;
 }
-
 .container{
-  display: flex;
+  display:flex;
   flex-direction: column;
   height: 100vh;
 }
-
 .header{
   flex: 15%;
-  background-color: gray;
-  background: url("CCDA0596-6F56-424C-9AB3-FF4FC8F3BC98.jpeg") center / 100%;
+  background-color: lightgray;
+  background: url("alo/IMG_6442.jpeg") center / 100%;
   aspect-ratio: 6 / 1;
 }
 
 .menu{
   flex: 5%;
-  background-color: darkblue;
-  display: flex;
-  align-items: center;
+  background-color: darkgray;
 }
-
 .menu a{
-  color: white;
   padding: 15px 20px;
-  text-decoration: none;
+  color: purple;
 }
-
-.menu a:hover{
+.menu hover{
   background-color: lightgray;
+  color: black;
 }
-
 .content{
-  flex: 90%;
+  flex: 70%;
   background-color: white;
 }
-
-.content iframe{
+.content iframe {
+  flex: 1;
+  border: none;
   width: 100%;
   height: 100%;
-  border: none;
 }
-.footer {
+.footer{
   flex: 10%;
-  background-color: darkblue;
+  background-color: lightgray;
+} 
+    
+
+.f1 {
+  color: red; 
+  margin-top: 18pt;
+  margin-bottom: 12pt;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Arial; 
+}
+.f2
+{
+  color: black; 
+  margin-top: 6pt;
+  margin-bottom: 12pt;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Arial; 
+}
