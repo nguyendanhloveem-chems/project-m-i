@@ -8,9 +8,10 @@
     <script>
       let params = new URLSearchParams(window.location.search);
       let ten = params.get("txtTen");
-      let ykien = params.get("txtComment");
+      let mail = params.get("txtEmail");
       document.getElementById("kq").innerHTML = "Cảm ơn " + ten 
-      + " đã góp ý <br><br>Chúng tôi xin ghi nhận ý kiến của" + ten " rằng :" + ykien           
+      + " điền Form tham gia hội thao của trường THPT Ngô Quyền <br><br> Hãy đợi thông báo mới nhất từ ban tổ chức thông qua email:"
+      + mail
     </script>
    <form action="Bai7-NV2.html"> 
     <input type= "submit" name= "cmd" value="Quay lại">
